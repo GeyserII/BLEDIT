@@ -15,17 +15,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-sky-50">
     <section
         class="bg-[url('https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/hero/gridBackground.png')] w-full bg-no-repeat bg-cover bg-center text-sm pb-44">
 
-        <nav class="flex items-center justify-between p-4 md:px-16 lg:px-24 xl:px-32 md:py-6 w-full">
-            <a href="#" class="flex items-center justify-center gap-2 ">
-                <span>Bled</span>
-                <img src="assets/italy(2).png" alt="Logo" class="h-8 w-auto">
+    <nav class="flex items-center justify-between p-8 md:px-24 lg:px-32 xl:px-40 md:py-8 w-full">
+            <a href="#" class="flex items-center justify-center gap-1 ">
+                <span class="font-bold text-xl">Bled</span>
+                <img src="assets/italy(2).png" alt="Logo" class="h-10 w-auto">
             </a>
             <div id="menu"
-                class="max-md:absolute max-md:top-0 max-md:left-0 max-md:w-0 max-md:transition-all max-md:duration-300 max-md:overflow-hidden max-md:h-full max-md:bg-white/50 max-md:backdrop-blur max-md:flex-col max-md:justify-center flex items-center gap-8 font-medium">
+                class="max-md:absolute max-md:top-0 max-md:left-0 max-md:w-0 max-md:transition-all max-md:duration-300 max-md:overflow-hidden max-md:h-full max-md:bg-white/50 max-md:backdrop-blur max-md:flex-col max-md:justify-center flex items-center gap-8 font-medium text-xl">
                 <a href="#" class="hover:text-gray-600">
                     Accueil
                 </a>
@@ -70,12 +70,12 @@
                 </button>
             </div>
             <button
-                class="hidden md:block bg-gray-800 hover:bg-black text-white px-6 py-3 rounded-full font-medium transition">
-                Nous contacter
-            </button>
+    class="bg-sky-600 hover:bg-sky-700 text-white px-8 py-3 rounded-full font-bold text-l transition hidden md:block">
+    Nous contacter
+</button>
 
             <button id="open-menu"
-                class="md:hidden bg-gray-800 hover:bg-black text-white p-2 rounded-md aspect-square font-medium transition">
+                class="md:hidden bg-sky-700 hover:bg-black text-white p-2 rounded-md aspect-square font-medium transition">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M4 12h16" />
@@ -85,7 +85,7 @@
             </button>
         </nav>
 
-        <div
+        <!-- <div
             class="flex items-center gap-2 border border-slate-300 hover:border-slate-400/70 rounded-full w-max mx-auto px-4 py-2 mt-20 md:mt-32">
             <span>Vous pouvez nous contacter pour plus d'informations</span>
             <button class="flex items-center gap-1 font-medium">
@@ -95,25 +95,24 @@
                         stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </button>
-        </div>
+        </div> -->
 
-        <h1 class="text-4xl md:text-7xl font-medium max-w-[850px] text-center mx-auto mt-8">
+        <h1 class="text-4xl font-bold text-sky-900 max-w-[850px] text-center mx-auto mt-20 md:mt-32">
             Donnez vie à vos idées digitales avec BledIT, l'agence web de Kinshasa.
         </h1>
 
-        <p class="text-sm md:text-base mx-auto max-w-2xl text-center mt-6 max-md:px-2">
+        <p class="text-2xl text-sky-800 mx-auto max-w-2xl text-center mt-4 mb-8 px-2">
             Création de sites web, applications web et solutions personnalisées pour booster votre présence en ligne en République Démocratique du Congo. Notre équipe vous accompagne de l'idée à la réalisation, pour un résultat professionnel, moderne et adapté à vos besoins.
         </p>
 
-        <div class="mx-auto w-full flex items-center justify-center gap-3 mt-4">
-            <button class="bg-slate-800 hover:bg-black text-white px-6 py-3 rounded-full font-medium transition">
+        <div class="mx-auto w-full flex items-center justify-center gap-6 mt-8 mb-8">
+            <button class="bg-sky-600 hover:bg-sky-700 text-white px-8 py-3 rounded-full font-bold text-xl transition">
                 Découvrir
             </button>
-            <button
-                class="flex items-center gap-2 border border-slate-300 hover:bg-slate-200/30 rounded-full px-6 py-3">
+            <button class="flex items-center gap-2 border border-sky-400 hover:bg-sky-100 rounded-full px-8 py-3 text-sky-700 font-bold text-xl transition">
                 <span>Nous contacter</span>
                 <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.25.5 4.75 4l-3.5 3.5" stroke="#050040" stroke-opacity=".4" stroke-linecap="round"
+                    <path d="M1.25.5 4.75 4l-3.5 3.5" stroke="#0284c7" stroke-opacity=".7" stroke-linecap="round"
                         stroke-linejoin="round" />
                 </svg>
             </button>
@@ -122,7 +121,7 @@
     </section>
 
 
-    <section class="flex flex-col md:flex-row items-center justify-center gap-10 max-md:px-4 mt-[150px] mb-[150px]">
+    <section class="flex flex-col md:flex-row items-center justify-center gap-16 max-md:px-4 mt-24 mb-24">
         <div class="relative shadow-2xl shadow-indigo-600/40 rounded-2xl overflow-hidden shrink-0">
             <img class="max-w-md w-full object-cover rounded-2xl"
                 src="https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?q=80&w=451&h=451&auto=format&fit=crop"
@@ -136,32 +135,30 @@
                 </svg>
             </div>
         </div>
-        <div class="text-sm text-slate-600 max-w-lg">
-            <h1 class="text-4xl uppercase font-semibold text-slate-700">Qui sommes-nous ?</h1>
-            <div class="w-24 h-[3px] rounded-full bg-gradient-to-r from-indigo-600 to-[#DDD9FF]"></div>
+        <div class="text-xl text-sky-800 max-w-lg">
+            <h1 class="text-4xl uppercase font-bold text-sky-900 mb-4">Qui sommes-nous ?</h1>
+            <div class="w-24 h-[3px] rounded-full bg-gradient-to-r from-sky-400 to-sky-200 mb-6"></div>
             <p class="mt-8 text-2xl">BledIT est une start-up basée à Kinshasa, spécialisée dans la création de sites web, d'applications web et la personnalisation digitale pour les entreprises et particuliers en RDC.</p>
             <p class="mt-4 text-2xl">Notre mission : vous offrir une présence en ligne moderne, professionnelle et sur-mesure, adaptée à vos objectifs et à votre identité.</p>
             <p class="mt-4 text-2xl">De la conception à la mise en ligne, nous vous accompagnons à chaque étape pour transformer vos idées en solutions digitales performantes et innovantes.</p>
-            <button
-                class="flex items-center gap-2 mt-8 hover:-translate-y-0.5 transition bg-gradient-to-r from-indigo-600 to-[#8A7DFF] py-3 px-8 rounded-full text-white">
+            <!-- <button class="mt-8 bg-sky-600 hover:bg-sky-700 text-white px-8 py-3 rounded-full font-bold text-xl transition flex items-center gap-2">
                 <span>En savoir plus</span>
                 <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M12.53 6.53a.75.75 0 0 0 0-1.06L7.757.697a.75.75 0 1 0-1.06 1.06L10.939 6l-4.242 4.243a.75.75 0 0 0 1.06 1.06zM0 6v.75h12v-1.5H0z"
                         fill="#fff" />
                 </svg>
-            </button>
+            </button> -->
         </div>
     </section>
-    <section class=" mb-40 px-4 md:px-0">
-        <h1 class="text-4xl uppercase font-semibold text-slate-700 text-center">Nos services</h1>
-        <p class="text-xl text-slate-500 text-center mt-2 max-w-lg mx-auto">
-            BledIT propose des services de création de sites web, développement d'applications web, et personnalisation digitale pour valoriser votre activité à Kinshasa et partout en RDC.
-        </p>
+    <section class="mb-24 px-4 md:px-0">
+        <h1 class="text-4xl uppercase font-bold text-sky-900 text-center mb-4">Nos services</h1>
+        <p class="text-2xl text-sky-800 text-center mt-2 max-w-lg mx-auto mb-8">
+            BledIT propose des services de création suivants 
         <div
-            class="relative max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 px-8 md:px-0 pt-16">
+            class="relative max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-8 md:px-0 pt-16">
             <div
-                class="size-[520px] -top-80 left-1/2 -translate-x-1/2 rounded-full absolute blur-[300px] -z-10 bg-[#FBFFE1]">
+                class="size-[520px] -top-80 left-1/2 -translate-x-1/2 rounded-full absolute blur-[300px] -z-10 bg-sky-100">
             </div>
             <div>
                 <div class="size-10 p-2 bg-indigo-50 border border-indigo-200 rounded">
@@ -169,8 +166,8 @@
                         alt="">
                 </div>
                 <div class="mt-5 space-y-2">
-                    <h3 class="text-xl font-medium text-slate-600">Sites web sur-mesure</h3>
-                    <p class="text-sm text-slate-500">Conception et développement de sites vitrines, e-commerce et institutionnels adaptés à votre image.</p>
+                    <h3 class="text-2xl font-bold text-sky-900">Sites web sur-mesure</h3>
+                    <p class="text-xl text-sky-800">Conception et développement de sites vitrines, e-commerce et institutionnels adaptés à votre image.</p>
                 </div>
             </div>
             <div>
@@ -179,8 +176,8 @@
                         alt="">
                 </div>
                 <div class="mt-5 space-y-2">
-                    <h3 class="text-xl font-medium text-slate-600">Applications web innovantes</h3>
-                    <p class="text-sm text-slate-500">Développement d'applications web performantes pour répondre à vos besoins métiers spécifiques.</p>
+                    <h3 class="text-2xl font-bold text-sky-900">Applications web innovantes</h3>
+                    <p class="text-xl text-sky-800">Développement d'applications web performantes pour répondre à vos besoins métiers spécifiques.</p>
                 </div>
             </div>
             <div>
@@ -189,8 +186,8 @@
                         alt="">
                 </div>
                 <div class="mt-5 space-y-2">
-                    <h3 class="text-xl font-medium text-slate-600">Personnalisation digitale</h3>
-                    <p class="text-sm text-slate-500">Solutions sur-mesure pour valoriser votre présence en ligne et automatiser vos processus.</p>
+                    <h3 class="text-2xl font-bold text-sky-900">Personnalisation digitale</h3>
+                    <p class="text-xl text-sky-800">Solutions sur-mesure pour valoriser votre présence en ligne et automatiser vos processus.</p>
                 </div>
             </div>
         </div>
@@ -199,8 +196,8 @@
 
     <section>
 
-        <h1 class="text-3xl font-semibold text-center mx-auto">Quelques-unes de nos réalisations</h1>
-        <p class="text-sm text-slate-500 text-center mt-2 max-w-lg mx-auto">Découvrez quelques projets réalisés par l'équipe BledIT pour nos clients à Kinshasa et ailleurs.</p>
+    <h1 class="text-4xl font-bold text-center mx-auto text-sky-900 mb-4">Quelques-unes de nos réalisations</h1>
+    <p class="text-2xl text-sky-800 text-center mt-2 max-w-lg mx-auto mb-8">Découvrez quelques projets réalisés par l'équipe BledIT pour nos clients à Kinshasa et ailleurs.</p>
         <div class="flex flex-wrap items-center justify-center mt-12 gap-4 max-w-5xl mx-auto">
             <div class="relative group rounded-lg overflow-hidden">
                 <img src="https://images.unsplash.com/photo-1719368472026-dc26f70a9b76?q=80&w=736&auto=format&fit=crop"
@@ -366,61 +363,60 @@
 
     </section>
 
-    <section class=" mb-40 mt-40">
-        <form class="flex flex-col items-center text-sm">
-            <h1 class="text-4xl font-semibold text-slate-700 pb-4">Contactez-nous</h1>
-            <p class="text-lg text-blue-600 font-medium pb-2">Nous contacter</p>
-            <p class="text-sm text-gray-500 text-center pb-10">Vous avez un projet ou une question ? L'équipe BledIT est à votre écoute pour vous accompagner dans votre transformation digitale à Kinshasa et partout en RDC.</p>
+    <section class="mb-24 mt-24">
+        <form class="flex flex-col items-center text-xl">
+            <h1 class="text-4xl font-bold text-sky-900 pb-4">Contactez-nous</h1>
+            <p class="text-xl text-sky-800 text-center pb-10">Vous avez un projet ou une question ? contactez l'équipe BledIT directement a partir de ce formulaire</p>
 
             <div class="flex flex-col md:flex-row items-center gap-8 w-[350px] md:w-[700px]">
                 <div class="w-full">
-                    <label class="text-black/70" for="name">Votre nom</label>
+                    <label class="text-sky-900" for="name">Votre nom</label>
                     <input
-                        class="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300"
+                        class="h-12 p-2 mt-2 w-full border border-sky-300 rounded outline-none focus:border-sky-400"
                         type="text" required>
                 </div>
                 <div class="w-full">
-                    <label class="text-black/70" for="email">Votre email</label>
+                    <label class="text-sky-900" for="email">Votre email</label>
                     <input
-                        class="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300"
+                        class="h-12 p-2 mt-2 w-full border border-sky-300 rounded outline-none focus:border-sky-400"
                         type="email" required>
                 </div>
             </div>
 
             <div class="mt-6 w-[350px] md:w-[700px]">
-                <label class="text-black/70" for="message">Message</label>
+                <label class="text-sky-900" for="message">Message</label>
                 <textarea
-                    class="w-full mt-2 p-2 h-40 border border-gray-500/30 rounded resize-none outline-none focus:border-indigo-300"
+                    class="w-full mt-2 p-2 h-40 border border-sky-300 rounded resize-none outline-none focus:border-sky-400"
                     required></textarea>
             </div>
 
             <button type="submit"
-                class="mt-5 bg-indigo-600 text-white h-12 w-56 px-4 rounded active:scale-95 transition">Envoyer
+                class="mt-8 bg-sky-600 hover:bg-sky-700 text-white px-8 py-3 rounded-full font-bold text-xl transition">Envoyer
                 le message</button>
         </form>
     </section>
 
 
 
-    <footer class="flex flex-col bg-slate-50 items-center justify-around w-full py-16 text-sm text-gray-800/70">
+    <footer class="flex flex-col bg-sky-100 items-center justify-around w-full py-16 text-xl text-sky-800/80">
         <div class="flex items-center gap-8">
-            <a href="#" class="font-medium text-gray-500 hover:text-black transition-all">
+            <a href="#" class="font-bold text-sky-700 hover:text-sky-900 transition-all">
                 Accueil
             </a>
-            <a href="#" class="font-medium text-gray-500 hover:text-black transition-all">
+            <a href="#" class="font-bold text-sky-700 hover:text-sky-900 transition-all">
                 A propos
             </a>
-            <a href="#" class="font-medium text-gray-500 hover:text-black transition-all">
+            <a href="#" class="font-bold text-sky-700 hover:text-sky-900 transition-all">
                 Services
             </a>
-            <a href="#" class="font-medium text-gray-500 hover:text-black transition-all">
+            <a href="#" class="font-bold text-sky-700 hover:text-sky-900 transition-all">
                 Projets
             </a>
-            <a href="#" class="font-medium text-gray-500 hover:text-black transition-all">
+            <a href="#" class="font-bold text-sky-700 hover:text-sky-900 transition-all">
                 Contact
             </a>
         </div>
-        <div class="flex items-center gap-4 mt-8 text-indigo-500">
+    <div class="flex items-center gap-4 mt-8 text-sky-500">
             <a href="#" class="hover:-translate-y-0.5 transition-all duration-300">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor"
@@ -445,7 +441,7 @@
                 </svg>
             </a>
         </div>
-        <p class="mt-8 text-center">Copyright © 2025 <a href="#">BledIT</a>. Tous droits reserves.</p>
+    <p class="mt-8 text-center">Copyright © 2025 <a href="#" class="text-sky-700 font-bold">BledIT</a>. Tous droits réservés.</p>
     </footer>
 
     <script src="src/script.js">
