@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', toggleScrollToTop);
 const navbar = document.getElementById('navbar');
 
 function toggleNavbarShadow() {
-    if (window.scrollY >= 60) {
+    if (window.scrollY >= 150) {
         // Ajoute le shadow quand on scroll
         navbar.classList.add('shadow-lg', 'bg-sky-50');
         navbar.classList.remove('shadow-none');
