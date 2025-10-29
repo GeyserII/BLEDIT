@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+html, body {
+    scroll-behavior: smooth;
+}
 h1, h3{
     font-family: "Archivo Black", sans-serif;
 }
