@@ -7,3 +7,7 @@
 h1, h3{
     font-family: "Archivo Black", sans-serif;
 }
+
+#scrollToTop {
+    transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+}
