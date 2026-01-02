@@ -1,16 +1,54 @@
+:root {
+    --primary: #0284c7;
+    --primary-light: #7dd3fc;
+    --primary-dark: #0369a1;
+    --bg-main: #f0f9ff;
+    --bg-alt: #e0f2fe;
+    --text-main: #0c4a6e;
+    --text-muted: #075985;
+    --border-subtle: rgba(186, 230, 253, 0.5);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
 html, body {
     scroll-behavior: smooth;
+    background-color: var(--bg-main);
 }
+
 h1, h3{
     font-family: "Archivo Black", sans-serif;
 }
 
+/* Custom Glassmorphism Utility */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--border-subtle);
+}
+
+.border-subtle {
+    border-color: var(--border-subtle);
+}
+
 #scrollToTop {
     transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+    border: 1px solid var(--border-subtle);
+}
+
+#navbar {
+    transition: all 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+#navbar.scrolled {
+    border-bottom: 1px solid var(--border-subtle);
+    background: rgba(240, 249, 255, 0.85);
+    backdrop-filter: blur(12px);
 }

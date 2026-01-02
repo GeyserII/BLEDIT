@@ -47,17 +47,12 @@ document.addEventListener('DOMContentLoaded', toggleScrollToTop);
 const navbar = document.getElementById('navbar');
 
 function toggleNavbarShadow() {
-    if (window.scrollY >= 150) {
-        // Ajoute le shadow quand on scroll
-        navbar.classList.add('shadow-lg', 'bg-sky-50');
-        navbar.classList.remove('shadow-none');
+    if (window.scrollY >= 50) {
+        navbar.classList.add('scrolled');
     } else {
-        // Retire le shadow quand on est en haut
-        navbar.classList.remove('shadow-lg', 'bg-sky-50');
-        navbar.classList.add('shadow-none');
+        navbar.classList.remove('scrolled');
     }
 }
 
-// Événements
 window.addEventListener('scroll', toggleNavbarShadow);
 document.addEventListener('DOMContentLoaded', toggleNavbarShadow);
