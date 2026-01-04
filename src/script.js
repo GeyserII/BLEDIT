@@ -56,3 +56,30 @@ function toggleNavbarShadow() {
 
 window.addEventListener('scroll', toggleNavbarShadow);
 document.addEventListener('DOMContentLoaded', toggleNavbarShadow);
+
+// ScrollReveal Animations
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 1500,
+    delay: 400,
+    // reset: true // Animations repeat
+})
+
+sr.reveal('#navbar > a, #menu', { interval: 100 })
+sr.reveal('#navbar > button', { delay: 200 })
+sr.reveal('#home h1', { origin: 'bottom' })
+sr.reveal('#home p', { origin: 'bottom', delay: 500 })
+sr.reveal('#home .flex button', { origin: 'bottom', delay: 600, interval: 100 })
+
+sr.reveal('#about img', { origin: 'left' })
+sr.reveal('#about .text-sky-800', { origin: 'right' })
+
+sr.reveal('#services h1, #services p', { origin: 'top' })
+sr.reveal('#services .grid > div', { origin: 'bottom', interval: 200 })
+
+sr.reveal('#works h1', { origin: 'top' })
+sr.reveal('#works p', { origin: 'bottom', delay: 500 })
+
+sr.reveal('#contact', { origin: 'bottom' })
+sr.reveal('footer', { origin: 'bottom', delay: 100 })

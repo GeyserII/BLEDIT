@@ -14,6 +14,8 @@
         rel="stylesheet">
     <!-- CDN Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body class="bg-sky-50 overflow-x-hidden">
@@ -212,7 +214,7 @@
     </section>
 
     <section id="contact" class="flex flex-col items-center justify-center min-h-screen px-4 py-16">
-        <div class="w-full max-w-2xl border border-sky-100 rounded-3xl p-8 md:p-12">
+        <div class="w-full max-w-2xl rounded-3xl p-8 md:p-12">
             <h2 class="text-3xl sm:text-4xl font-bold text-sky-900 text-center mb-8 uppercase">Contactez-nous</h2>
             <form action="https://formspree.io/f/xnneewkb" method="POST" class="space-y-6">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -220,13 +222,13 @@
                         <label for="name" class="text-sky-900 font-bold ml-1">Votre nom</label>
                         <input type="text" name="name" id="name" required
                             class="w-full bg-sky-50/50 border border-sky-100 rounded-2xl px-6 py-4 focus:outline-none focus:border-sky-400 bg-white transition-all duration-300"
-                            placeholder="Jean Dupont">
+                            placeholder="Nom">
                     </div>
                     <div class="flex flex-col gap-2">
                         <label for="email" class="text-sky-900 font-bold ml-1">Votre email</label>
                         <input type="email" name="email" id="email" required
                             class="w-full bg-sky-50/50 border border-sky-100 rounded-2xl px-6 py-4 focus:outline-none focus:border-sky-400 bg-white transition-all duration-300"
-                            placeholder="jean@exemple.com">
+                            placeholder="Email">
                     </div>
                 </div>
                 <div class="flex flex-col gap-2">
@@ -236,8 +238,8 @@
                         placeholder="Comment pouvons-nous vous aider ?"></textarea>
                 </div>
                 <button type="submit"
-                    class="w-full bg-sky-600 hover:bg-sky-700 text-white font-bold py-4 rounded-2xl transition-colors duration-300 text-lg flex items-center justify-center gap-2">
-                    <span>Envoyer mon message</span>
+                    class="w-full bg-sky-600 hover:bg-sky-700 text-white font-bold py-4 rounded-full transition-colors duration-300 text-lg flex items-center justify-center gap-2">
+                    <span>Envoyer</span>
                     <i class="ri-send-plane-fill"></i>
                 </button>
             </form>
