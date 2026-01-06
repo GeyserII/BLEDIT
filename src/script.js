@@ -80,6 +80,7 @@ sr.reveal('#services .grid > div', { origin: 'bottom', interval: 200 })
 
 sr.reveal('#works h1', { origin: 'top' })
 sr.reveal('#works p', { origin: 'bottom', delay: 500 })
+sr.reveal('.work-item', { origin: 'bottom', interval: 200, delay: 300 })
 
 sr.reveal('#contact', { origin: 'bottom' })
 sr.reveal('footer', { origin: 'bottom', delay: 100 })
